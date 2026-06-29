@@ -1,0 +1,14 @@
+# Desenvolvimento local com hot-reload do Vite (rode npm run dev no host)
+services:
+  app:
+    build:
+      target: production
+    environment:
+      APP_ENV: local
+      APP_DEBUG: "true"
+    ports:
+      - "8080:80"
+
+  mysql:
+    ports:
+      - "3306:3306"

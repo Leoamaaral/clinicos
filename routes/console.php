@@ -1,0 +1,14 @@
+<?php
+
+use App\Console\Commands\SendAppointmentReminders;
+use Illuminate\Foundation\Inspiring;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Schedule;
+
+Artisan::command('inspire', function () {
+    $this->comment(Inspiring::quote());
+})->purpose('Display an inspiring quote');
+
+Schedule::command(SendAppointmentReminders::class)
+    ->hourly()
+    ->between('08:00', '22:00');
