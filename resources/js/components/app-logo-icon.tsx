@@ -8,7 +8,7 @@ export default function AppLogoIcon({
 }: ImgHTMLAttributes<HTMLImageElement>) {
     return (
         <img
-            src="/clinic-os.svg"
+            src="/clinic-os-icon.png"
             alt={alt}
             className={cn('object-contain', className)}
             {...props}

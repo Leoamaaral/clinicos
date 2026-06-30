@@ -1,7 +1,7 @@
 import { Form, Head } from '@inertiajs/react';
 import { AnamnesisQuestionFields } from '@/components/anamnesis-question-fields';
 import { AnamnesisSubmitSection } from '@/components/anamnesis-submit-section';
-import AppLogoIcon from '@/components/app-logo-icon';
+import AppLogoFull from '@/components/app-logo-full';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useAnamnesisConsentSubmit } from '@/hooks/use-anamnesis-consent-submit';
@@ -28,7 +28,7 @@ export default function PublicAnamnesisFill({
             <div className="min-h-svh bg-background px-4 py-8">
                 <div className="mx-auto max-w-2xl">
                     <div className="mb-8 flex flex-col items-center gap-3 text-center">
-                        <AppLogoIcon className="size-10 fill-current text-[var(--foreground)] dark:text-white" />
+                        <AppLogoFull className="h-36 w-auto max-w-[220px]" />
                         <div>
                             <h1 className="text-2xl font-semibold">{clinicName}</h1>
                             <p className="text-muted-foreground mt-1 text-sm">

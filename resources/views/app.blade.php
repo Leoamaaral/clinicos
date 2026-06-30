@@ -30,8 +30,9 @@
             }
         </style>
 
-        <link rel="icon" href="/clinic-os.svg" type="image/svg+xml">
+        <link rel="icon" href="/clinic-os-icon.png" type="image/png">
         <link rel="icon" href="/clinic-os.ico" sizes="any">
+        <link rel="apple-touch-icon" href="/clinic-os-apple-touch-icon.png">
 
         @fonts
 
